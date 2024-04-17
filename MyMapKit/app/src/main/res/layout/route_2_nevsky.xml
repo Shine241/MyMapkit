@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Back"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Route along Nevsky Prospekt"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Bel_Bel_Palace"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Bel_Bel_Palace"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Anichkov_bridge"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Anichkov_bridge"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Anichkov_Palace"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Anichkov_Palace"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:background="@drawable/line_"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_Eliseevsky_shop"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_height="170dp"/>
+
+        <TextView
+            android:id="@+id/text_Eliseevsky_shop"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+
+            android:layout_height="wrap_content"
+            tools:ignore="Suspicious0dp" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Monument_to_Catherine_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Monument_to_Catherine_2"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Passage"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Passage"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Gostiny_Dvor"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Gostiny_Dvor"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Church_of_Saint_Catherine"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Church_of_Saint_Catherine"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_City_Council_building"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_City_Council_building"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Basilica_of_Saint_Catherine_of_Alexandria"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Basilica_of_Saint_Catherine_of_Alexandria"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Singer_Company"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Singer_Company"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Ma_Cathedral"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Ma_Cathedral"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Lutheran_Church_of_Saints_Peter_and_Paul"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Lutheran_Church_of_Saints_Peter_and_Paul"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Mertens_Trading_House"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Mertens_Trading_House"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Stroganov_Palace"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Stroganov_Palace"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Home_of_the_Dutch_Reformed_Church"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Home_of_the_Dutch_Reformed_Church"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Green_bridge"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Green_bridge"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="90dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/line_"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="right"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/nb_go_roude_2"
+                android:layout_width="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/route"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

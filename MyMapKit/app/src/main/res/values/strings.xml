@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My MapKit</string>
+    <string name="h1">Welcome to SPB Routing</string>
+    <string name="h2">your route</string>
+    <string name="EnterN">Enter your name:</string>
+    <string name="HiActor">Hello</string>
+    <string name="Contin">continue</string>
+    <string name="Start">Start</string>
+    <string name="Points">Features and controls:</string>
+    <string name="Use_this">Use this location?</string>
+    <string name="Change_location">Change location</string>
+    <string name="Select">Select</string>
+
+    <string name="start">start</string>
+    <string name="Go_map">Go to Map</string>
+</resources>

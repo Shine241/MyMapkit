@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Back"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Route around the Peter and Paul Fortress"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Hare"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Hare"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Memorial"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Memorial"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_House"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_House"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Peter"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Peter"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Fortress"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Fortress"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Cathedral"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Cathedral"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Money_yard"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/img_Money_yard"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:background="@drawable/line_"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_Boathouse"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"/>
+
+            <TextView
+                android:id="@+id/text_Boathouse"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                tools:ignore="Suspicious0dp" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="90dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/line_"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="right"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/nb_go_roude"
+            android:layout_width="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/route"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/relLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/widget_back">
+
+        <ImageView
+            android:id="@+id/ic_magnify"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/search_mark" />
+
+        <EditText
+            android:id="@+id/input_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/ic_magnify"
+            android:background="@null"
+            android:hint="Enter a location"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:windowSoftInputMode="adjustPan" />
+        <ImageView
+            android:id="@+id/ic_close"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+
+            android:background="@drawable/widget_back"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/closer" />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/id_museum"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/relLayout"
+        android:layout_alignParentRight="false"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/widget_back"
+        android:scaleType="center"
+        android:src="@drawable/museum_ic"
+        tools:ignore="OnClick,UnknownId" />
+
+    <ImageView
+        android:id="@+id/id_restaurant"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/id_museum"
+        android:layout_alignParentRight="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/widget_back"
+        android:scaleType="center"
+        android:src="@drawable/ic_rest"
+        tools:ignore="OnClick,UnknownId" />
+
+    <ImageView
+        android:id="@+id/id_gps"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/relLayout"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/widget_back"
+        android:scaleType="center"
+        android:src="@drawable/ic_gps"
+        tools:ignore="OnClick,UnknownId" />
+
+    <Button
+        android:id="@+id/id_routes"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/id_gps"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/widget_back"
+        android:onClick="showPopup"
+        android:scaleType="center"
+        android:text="routes"
+        tools:ignore="OnClick,UnknownId" />
+
+    <LinearLayout
+    android:id="@+id/Lay_mus_close"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+    android:layout_toLeftOf="@+id/id_gps"
+    android:layout_centerVertical="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="40dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" />
+
+</RelativeLayout>

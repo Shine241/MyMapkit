@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/Back"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/Hi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HiActor"
+        android:background="@drawable/widget_back"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/Gray"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/Points"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/Gray"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/widget_back"
+            android:scaleType="center"
+            android:src="@drawable/museum_ic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:text="Displaying museums on the Map"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/widget_back"
+            android:scaleType="center"
+            android:src="@drawable/ic_rest"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Showing restaurants on the Map"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/widget_back"
+            android:scaleType="center"
+            android:src="@drawable/ic_gps"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Displaying a location on a map"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/id_routes"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/widget_back"
+                android:scaleType="center"
+                android:text="routes" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Choice of routes"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="We can also plot a route for a selected point and use the search for places"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMap"
+        android:onClick="EnterLocations"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/widget_back"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:text="@string/Start"
+        android:textSize="20sp"/>
+
+</LinearLayout>
